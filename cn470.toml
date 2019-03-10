@@ -1,0 +1,52 @@
+[general]
+log_level=4
+
+[postgresql]
+dsn="postgres://loraserver_ns:loraserver_ns@localhost/loraserver_ns?sslmode=disable"
+
+[network_server]
+net_id="000000"
+
+  [network_server.band]
+  name="EU_863_870"
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=486300000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=486500000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=486700000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=486900000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=487100000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=487300000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=487500000
+  min_dr=0
+  max_dr=5
+
+  [[network_server.network_settings.extra_channels]]
+  frequency=487700000
+  min_dr=0
+  max_dr=5
+
