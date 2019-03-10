@@ -8,7 +8,7 @@ dsn="postgres://loraserver_ns:loraserver_ns@localhost/loraserver_ns?sslmode=disa
 net_id="000000"
 
   [network_server.band]
-  name="AS_923_925"
+  name="AS_923"
 
   [[network_server.network_settings.extra_channels]]
   frequency=923200000
